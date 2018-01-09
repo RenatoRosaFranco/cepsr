@@ -39,15 +39,25 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  # Use devise as authentication
   gem 'devise'
+  # Use rspec-rails
   gem 'rspec-rails'
+  # Use shoulda to make tests more fun
   gem 'shoulda'
+  # Use bootstrap-sass as bootstrap
   gem 'bootstrap-sass'
+  # Use carreriwave as file uploader
   gem 'carrierwave'
+  # Use rails_best_practices as best_practices
   gem 'rails_best_practices'
+  # Use rubocop as code quality
   gem 'rubocop'
+  # Use simplecov as code coverage
   gem 'simplecov'
+  # Use responders as respond format
   gem 'responders'
+  # Use jquery-rails as jquery
   gem 'jquery-rails'
 end
 
