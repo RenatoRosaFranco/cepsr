@@ -61,6 +61,8 @@ group :development, :test do
   gem 'rails-erd'
   # Use jquery-rails as jquery
   gem 'jquery-rails'
+  # Use angularjs-rails as angular
+  gem 'angularjs-rails'
 end
 
 group :development do
