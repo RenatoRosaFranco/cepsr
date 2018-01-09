@@ -69,6 +69,8 @@ group :development, :test do
   gem 'angularjs-rails'
   # Use brakeman as security analizer
   gem 'brakeman'
+  # Use friendly_id as friendly urls
+  gem 'friendly_id'
 end
 
 group :development do
