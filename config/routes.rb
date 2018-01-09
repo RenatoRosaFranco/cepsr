@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  namespace :dashboard do
+    get 'home/index'
+  end
+
   # Authentication
   # @implemented
   devise_for :users
