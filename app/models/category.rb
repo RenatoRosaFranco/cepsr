@@ -1,8 +1,7 @@
-class Post < ApplicationRecord
-  self.table_name = 'posts'
+class Category < ApplicationRecord
+  self.table_name = 'categories'
   self.primary_key = 'id'
 
-  # Relationships
   belongs_to :user
 
   validates :name,
@@ -15,17 +14,11 @@ class Post < ApplicationRecord
             presence: true,
             uniqueness: false,
             allow_blank: false,
-            length: { minimum: 3, maximum: 145 }
-
-  validates :content,
-            presence: true,
-            uniqueness: false,
-            allow_blank: false,
-            length: { minimu: 3, maximum: 4000 }
+            length: { minimum: 3, maximum: 245 }
 
   validates :tags,
             presence: true,
             uniqueness: false,
             allow_blank: false,
-            length: { minimum: 3, maximum: 80 }
+            length: { minimum: 3, maximum: 75 }
 end

@@ -13,11 +13,11 @@ Rails.application.routes.draw do
   # Dashboard
   # @implemented
   namespace :dashboard do
+    get '', to: 'home#index'
     resources :editions do
       resources :subscriptions
     end
     resources :newsletters
     resources :posts
   end
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

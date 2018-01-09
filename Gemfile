@@ -57,6 +57,8 @@ group :development, :test do
   gem 'simplecov'
   # Use responders as respond format
   gem 'responders'
+  # Use rails-erd to generate DER pdf
+  gem 'rails-erd'
   # Use jquery-rails as jquery
   gem 'jquery-rails'
 end
