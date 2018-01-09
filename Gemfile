@@ -59,6 +59,10 @@ group :development, :test do
   gem 'responders'
   # Use rails-erd to generate DER pdf
   gem 'rails-erd'
+  # Use will_paginate as pagination
+  gem 'will_paginate'
+  # Use bootstrap-will_paginate to bootstrap style
+  gem 'bootstrap-will_paginate'
   # Use jquery-rails as jquery
   gem 'jquery-rails'
   # Use angularjs-rails as angular
