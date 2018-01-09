@@ -1,9 +1,10 @@
+# sanatize:string
 class Post < ApplicationRecord
   self.table_name = 'posts'
   self.primary_key = 'id'
 
   scope :recents, -> { where(created_at: :desc).limit(3) }
-  scope :by_user(user), -> { where(user_id: user.id) }
+  scope :by_user, ->(user) { where(user_id: user.id) }
 
   # Relationships
   belongs_to :user

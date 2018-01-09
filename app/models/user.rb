@@ -1,3 +1,4 @@
+# sanatize:string
 class User < ApplicationRecord
   self.table_name = 'users'
   self.primary_key = 'id'
@@ -10,5 +11,4 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-
 end
