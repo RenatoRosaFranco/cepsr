@@ -52,6 +52,7 @@ GEM
       sass (>= 3.3.4)
     bootstrap-will_paginate (1.0.0)
       will_paginate
+    brakeman (4.1.1)
     builder (3.2.3)
     byebug (9.1.0)
     capybara (2.17.0)
@@ -277,6 +278,7 @@ DEPENDENCIES
   angularjs-rails
   bootstrap-sass
   bootstrap-will_paginate
+  brakeman
   byebug
   capybara (~> 2.13)
   carrierwave

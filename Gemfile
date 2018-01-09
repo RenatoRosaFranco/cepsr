@@ -67,6 +67,8 @@ group :development, :test do
   gem 'jquery-rails'
   # Use angularjs-rails as angular
   gem 'angularjs-rails'
+  # Use brakeman as security analizer
+  gem 'brakeman'
 end
 
 group :development do
