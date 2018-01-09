@@ -2,22 +2,31 @@
   <div class='field'>
     <div class="col-md-6">
       <%= f.label :name %>
+      <div class='input-group'>
+      <div class='input-group-addon'><i class='glyphicon glyphicon-search'></i></div>
       <%= f.text_field :name, class: 'form-control', required: 'required',
       placeholder: 'Digite o nome', autocomplete: 'off' %>
+      </div>
     </div>
   </div>
   <div class="field">
     <div class="col-md-6">
       <%= f.label :phone %>
+      <div class='input-group'>
+      <div class='input-group-addon'><i class='glyphicon glyphicon-search'></i></div>
       <%= f.text_field :name, class: 'form-control', required: 'required',
       placeholder: 'Digite o e-mail', autocomplete: 'off' %>
+      </div>
     </div>
   </div>
   <div class="field">
     <div class="col-md-12">
       <%= f.label :email %>
-      <%= f.email_fied :email, class: 'form-control', required: 'required',
+      <div class='input-group'>
+      <div class='input-group-addon'><i class='glyphicon glyphicon-search'></i></div>
+      <%= f.email_field :email, class: 'form-control', required: 'required',
       placeholder: 'Digite o e-mail', autocomplete: 'off' %>
+      </div>
     </div>
   </div>
   <div class="field">

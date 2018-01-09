@@ -1,7 +1,8 @@
+# sanitizer:string
 class Contact
   include ActiveModel::Conversion
   include ActiveModel::Validations
-  puts include Mailer
+  include Mailer
 
   attr_accessor :name, :phone, :email, :message
 
@@ -39,5 +40,4 @@ class Contact
             uniqueness: false,
             allow_blank: false,
             length: { minimum: 3, maximum: 2000 }
-
 end

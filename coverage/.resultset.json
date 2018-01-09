@@ -1,0 +1,198 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/renato/Área de Trabalho/cepsr/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/controllers/home_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/controllers/application_controller.rb": [
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/controllers/contacts_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/uploaders/file_uploader.rb": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/models/contact.rb": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/models/edition.rb": [
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/helpers/home_helper.rb": [
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/services/mailer.rb": [
+        0,
+        null,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/renato/Área de Trabalho/cepsr/lib/application_responder.rb": [
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0
+      ]
+    },
+    "timestamp": 1515509525
+  }
+}
